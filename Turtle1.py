@@ -6,7 +6,7 @@ t.color("White", "red")
 q = "y"
 while (q == "y"):
     u = input("What should I draw?\n")
-
+# To draw a circle
     if u == "circle":
         n = float(input("Please Specify the radius\n"))
 
