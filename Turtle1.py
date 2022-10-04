@@ -18,6 +18,11 @@ while (q == "y"):
         for i in range(4):
             t.fd(n)
             t.rt(90)
+            
+            
+    else:
+        n = float(input("Pleae Specify Diagonal"))
+        t.fd(n)
 
 
     q = input("y to redraw and n to exit\n")
